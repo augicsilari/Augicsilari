@@ -92,8 +92,8 @@ nav a:hover {
 
 /* HOME BANNER */
 .hero {
-  min-height: 430px;
-  padding: 80px 10%;
+  min-height: 380px;
+  padding: 60px 10%;
   display: flex;
   align-items: center;
 
@@ -103,7 +103,7 @@ nav a:hover {
   ), url("School.png");
 
   background-size: cover;
-  background-position: center;
+  background-position: center top;
 
   color: #fff;
 }
