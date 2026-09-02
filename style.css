@@ -92,7 +92,7 @@ nav a:hover {
 
 /* HOME BANNER */
 .hero {
-  width: 100%;
+  width: 80%;
   aspect-ratio: 1890 / 1038;
   min-height: 0;
   padding: 0;
