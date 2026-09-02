@@ -1,0 +1,1 @@
+console.log("Atal Utkrisht Government Inter College, SILARI website loaded successfully.");
