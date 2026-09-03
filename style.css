@@ -70,7 +70,7 @@ nav a:hover{background:var(--stone);}
 /* Hero */
 .hero{
   position:relative;
-  min-height:56vh;
+  min-height:65vh;
   display:flex; align-items:flex-end;
   overflow:hidden;
   background:var(--pine-dark);
@@ -85,7 +85,7 @@ nav a:hover{background:var(--stone);}
   width:100%;
   height:100%;
   object-fit:cover;
-  object-position:center;
+  object-position:center top;
 }
 .hero-photo small{display:block; font-family:var(--sans); font-size:0.75rem; margin-top:6px; opacity:.8;}
 .hero-overlay{
