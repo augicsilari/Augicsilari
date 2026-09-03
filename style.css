@@ -49,16 +49,8 @@ header{
 .seal{flex-shrink:0;}
 .brand-text h1{font-size:1.15rem; line-height:1.25; font-weight:700;}
 .brand-text p{margin:2px 0 0; font-size:0.8rem; color:var(--ink-soft);}
-.brand-text p{
-  margin:2px 0 0;
-  font-size:0.8rem;
-  color:var(--ink-soft);
-}
-
-.school-code{
-  font-weight:700;
-  color:#003b73;
-}
+.brand-text p{margin:2px 0 0;font-size:0.8rem;color:var(--ink-soft);}
+.brand-text p.school-code{font-weight:700;color:#003b73 !important;}
 
 nav{display:flex; gap:6px; flex-wrap:wrap;}
 nav a{
