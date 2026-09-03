@@ -46,7 +46,17 @@ header{
   gap:20px;
 }
 .brand{display:flex; align-items:center; gap:14px;}
-.seal{flex-shrink:0;}
+.seal{
+  flex-shrink:0;
+  width:90px;
+  height:90px;
+}
+
+.seal img{
+  width:90px;
+  height:90px;
+  object-fit:contain;
+}
 .brand-text h1{font-size:1.15rem; line-height:1.25; font-weight:700;}
 .brand-text p{margin:2px 0 0; font-size:0.8rem; color:var(--ink-soft);}
 .brand-text p{margin:2px 0 0;font-size:0.8rem;color:var(--ink-soft);}
