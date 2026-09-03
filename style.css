@@ -85,7 +85,7 @@ nav a:hover{background:var(--stone);}
   width:100%;
   height:100%;
   object-fit:cover;
-  object-position:center top;
+  object-position:center 15%;
 }
 .hero-photo small{display:block; font-family:var(--sans); font-size:0.75rem; margin-top:6px; opacity:.8;}
 .hero-overlay{
