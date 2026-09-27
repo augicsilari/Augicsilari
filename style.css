@@ -350,48 +350,75 @@ nav a:hover{background:var(--stone);}
   display:block;
 }
 
-/* Gallery */
+/* =========================
+   SCHOOL GALLERY
+   ========================= */
+
 .gallery{
+  width:100%;
+  max-width:1120px;
+  margin:28px auto 0;
   display:grid;
-  grid-template-columns:repeat(3, 1fr);
-  gap:18px;
-  margin-top:28px;
+  grid-template-columns:repeat(3, minmax(0, 1fr));
+  gap:20px;
   align-items:start;
 }
 
 .gallery-item{
-  background:var(--paper);
+  width:100%;
+  min-width:0;
+  background:#fff;
   border:1px solid var(--line);
-  border-radius:var(--radius);
+  border-radius:6px;
+  overflow:hidden;
+  box-shadow:0 3px 10px rgba(0,0,0,.06);
+}
+
+.gallery-caption{
+  width:100%;
+  background:var(--pine-dark);
+  color:#fff;
+  padding:10px 8px;
+  text-align:center;
+  font-family:var(--sans);
+  font-size:.9rem;
+  font-weight:600;
+  line-height:1.3;
+}
+
+.gallery-photos{
+  width:100%;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+  gap:3px;
+  padding:3px;
   overflow:hidden;
 }
 
-/* Caption */
-.gallery-caption{
-  background:var(--pine-dark);
-  color:#fff;
-  padding:10px;
-  text-align:center;
-  font-size:0.9rem;
-  font-weight:600;
-}
-
-/* Photos horizontal */
-.gallery-photos{
-  display:flex;
-  flex-wrap:nowrap;
-  gap:3px;
-  width:100%;
-}
-
-/* All photos equal size */
 .gallery-photos img{
-  flex:1 1 0;
-  min-width:0;
-  width:0;
-  height:160px;
-  object-fit:cover;
   display:block;
+  flex:1 1 0;
+  width:0;
+  min-width:0;
+  height:160px;
+  min-height:160px;
+  max-width:none;
+  object-fit:cover;
+  object-position:center;
+}
+
+/* 1 photo */
+.gallery-photos img:only-child{
+  width:100%;
+  flex:1 1 100%;
+}
+
+/* Tablet */
+@media (max-width:900px){
+  .gallery{
+    grid-template-columns:repeat(2,minmax(0,1fr));
+  }
 }
 
 /* Mobile */
@@ -402,9 +429,8 @@ nav a:hover{background:var(--stone);}
 
   .gallery-photos img{
     height:180px;
+    min-height:180px;
   }
-
-
 }
 
 /* Disclosure documents */
