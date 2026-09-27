@@ -207,7 +207,7 @@ nav a:hover{background:var(--stone);}
 .message{display:grid; grid-template-columns:220px 1fr; gap:36px; margin-top:28px; align-items:start;}
 .photo-placeholder{
   background:var(--paper);
-  border:1px dashed var(--line);
+  border:1px solid #000;
   border-radius:var(--radius);
   aspect-ratio:auto;
   display:flex; align-items:center; justify-content:center;
