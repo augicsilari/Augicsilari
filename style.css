@@ -178,8 +178,13 @@ nav a:hover{background:var(--stone);}
 .lede{max-width:680px; color:var(--ink-soft); font-size:1.02rem;}
 
 .cards{display:grid; gap:22px; margin-top:28px;}
-.cards.three{grid-template-columns:repeat(3, 1fr);
+.cards.three{  grid-template-columns:repeat(3, 1fr);
   align-items:start;
+}
+
+.cards.three .card{
+  align-self:start;
+  height:auto;
 }
 .cards.four{grid-template-columns:repeat(4, 1fr);}
 
