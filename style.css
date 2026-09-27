@@ -353,7 +353,7 @@ nav a:hover{background:var(--stone);}
 /* Gallery */
 .gallery{
   display:grid;
-  grid-template-columns:repeat(3,1fr);
+  grid-template-columns:repeat(3, 1fr);
   gap:18px;
   margin-top:28px;
   align-items:start;
@@ -364,31 +364,27 @@ nav a:hover{background:var(--stone);}
   border:1px solid var(--line);
   border-radius:var(--radius);
   overflow:hidden;
-  height:auto;
 }
 
-/* Photos inside one category */
+/* Photos inside each category */
 .gallery-photos{
   display:grid;
-  grid-template-columns:repeat(2,1fr);
+  grid-template-columns:repeat(2, 1fr);
   gap:3px;
-  width:100%;
-  height:auto;
 }
 
 .gallery-photos img{
   width:100%;
-  height:auto;
-  aspect-ratio:4/3;
+  height:160px;
   object-fit:cover;
   display:block;
 }
 
-/* Category name */
+/* Caption */
 .gallery-caption{
   background:var(--pine-dark);
   color:#fff;
-  padding:10px;
+  padding:9px 10px;
   text-align:center;
   font-size:0.9rem;
   font-weight:600;
@@ -399,6 +395,7 @@ nav a:hover{background:var(--stone);}
   .gallery{
     grid-template-columns:1fr;
   }
+}
 
 }
 
