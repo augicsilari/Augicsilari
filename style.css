@@ -185,12 +185,41 @@ nav a:hover{background:var(--stone);}
   background:var(--paper);
   border:1px solid var(--line);
   border-radius:var(--radius);
-  padding:26px 22px;
+  padding:20px 22px;
+  height:auto;
+  min-height:0;
 }
-.section.alt .card{background:var(--paper);}
-.card h3{font-size:1.05rem; margin-bottom:8px;}
-.card p{color:var(--ink-soft); font-size:0.94rem; margin-bottom:0;}
-.feature-icon{font-size:1.6rem; display:block; margin-bottom:10px;}
+.section.alt .card{
+  background:var(--paper);
+}
+
+/* Mission & Vision */
+.mission-card{
+  background:#F3F6F1 !important;
+  border-left:4px solid #1F4B3F;
+}
+
+.vision-card{
+  background:#F8F1E3 !important;
+  border-left:4px solid #C99A3E;
+}
+
+.card h3{
+  font-size:1.05rem;
+  margin-bottom:8px;
+}
+
+.card p{
+  color:var(--ink-soft);
+  font-size:0.94rem;
+  margin-bottom:0;
+}
+
+.feature-icon{
+  font-size:1.6rem;
+  display:block;
+  margin-bottom:10px;
+}
 
 .editable{border-left:3px solid var(--gold-light); padding-left:10px;}
 
