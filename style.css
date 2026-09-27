@@ -409,13 +409,10 @@ nav a:hover{background:var(--stone);}
 
 .gallery-photos{
   display:grid;
-
-  /* Desktop par 3 photo boxes */
   grid-template-columns:repeat(3, minmax(0,1fr));
-
   gap:12px;
-
   padding:12px;
+  align-items:start;
 }
 
 
@@ -439,7 +436,31 @@ nav a:hover{background:var(--stone);}
   background:var(--stone);
 }
 .photo-box{
-   text-align:center;
+  width:100%;
+  min-width:0;
+  text-align:center;
+}
+
+.photo-box img{
+  width:100%;
+  height:220px;
+  min-height:220px;
+  max-height:220px;
+  display:block;
+  object-fit:cover;
+  object-position:center;
+  border:1px solid var(--line);
+  border-radius:5px;
+  background:var(--stone);
+}
+
+.photo-caption{
+  margin:10px 0 5px;
+  font-size:15px;
+  font-weight:600;
+  color:var(--pine-dark);
+  text-align:center;
+  line-height:1.5;
 }
 
 .photo-caption{
