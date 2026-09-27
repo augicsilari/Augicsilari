@@ -754,3 +754,50 @@ footer{background:var(--pine-dark); color:rgba(255,255,255,.85); padding:52px 28
         padding: 20px;
     }
 }
+
+/* ===== ACADEMICS, EDUCATION & ACTIVITIES COLORS ===== */
+
+/* Academics - Light Blue */
+.academic-layout > .card:nth-child(1) {
+    background: #EFF7FF !important;
+    border: 1px solid #D3E6F8;
+    border-left: 6px solid #4C8DB8;
+    border-radius: 8px;
+    padding: 28px 32px;
+}
+
+/* Education System - Light Cream */
+.academic-layout > .card:nth-child(2) {
+    background: #FBF7EC !important;
+    border: 1px solid #EFE3C5;
+    border-left: 6px solid #D2A64C;
+    border-radius: 8px;
+    padding: 28px 32px;
+}
+
+/* Activities - Light Green */
+.academic-layout > .card:nth-child(3) {
+    background: #EDF7F1 !important;
+    border: 1px solid #D3EBDD;
+    border-left: 6px solid #236B50;
+    border-radius: 8px;
+    padding: 28px 32px;
+}
+
+/* Heading color */
+.academic-layout .card h3 {
+    color: #174C3D;
+}
+
+/* Text color */
+.academic-layout .card p {
+    color: #344A43;
+    line-height: 1.8;
+}
+
+/* Mobile spacing */
+@media (max-width: 640px) {
+    .academic-layout > .card {
+        padding: 20px !important;
+    }
+}
