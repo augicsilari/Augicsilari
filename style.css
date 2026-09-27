@@ -236,9 +236,29 @@ nav a:hover{background:var(--stone);}
 .value-item{
   margin-top:22px;
   padding:16px 18px;
-  border-left:4px solid var(--gold);
-  background:var(--stone);
+  height:auto;
+  min-height:0;
+  align-self:start;
   border-radius:var(--radius);
+  transition:transform .2s ease, box-shadow .2s ease;
+}
+
+/* Discipline */
+.value-item:nth-child(1){
+  background:#EEF5F1;
+  border-left:4px solid #1F4B3F;
+}
+
+/* Integrity & Equality */
+.value-item:nth-child(2){
+  background:#F8F1E3;
+  border-left:4px solid #C99A3E;
+}
+
+/* Academic Excellence */
+.value-item:nth-child(3){
+  background:#EEF2F8;
+  border-left:4px solid #3F628C;
 }
 
 .value-item h4{
@@ -253,6 +273,12 @@ nav a:hover{background:var(--stone);}
   color:var(--ink-soft);
   font-size:0.94rem;
   line-height:1.7;
+}
+
+/* Hover Effect */
+.value-item:hover{
+  transform:translateY(-2px);
+  box-shadow:0 6px 18px rgba(0,0,0,.08);
 }
 
 /* Stats */
