@@ -194,6 +194,29 @@ nav a:hover{background:var(--stone);}
 
 .editable{border-left:3px solid var(--gold-light); padding-left:10px;}
 
+/* Our Values */
+.value-item{
+  margin-top:22px;
+  padding:16px 18px;
+  border-left:4px solid var(--gold);
+  background:var(--stone);
+  border-radius:var(--radius);
+}
+
+.value-item h4{
+  margin:0 0 8px;
+  font-family:var(--serif);
+  font-size:1.05rem;
+  color:var(--pine-dark);
+}
+
+.value-item p{
+  margin:0;
+  color:var(--ink-soft);
+  font-size:0.94rem;
+  line-height:1.7;
+}
+
 /* Stats */
 .stats{background:var(--pine-dark); padding:44px 28px;}
 .stats-grid{
