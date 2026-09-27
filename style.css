@@ -712,3 +712,45 @@ footer{background:var(--pine-dark); color:rgba(255,255,255,.85); padding:52px 28
         gap:14px;
     }
 }
+/* Academics, Education System & Activities - Horizontal Layout */
+
+.academic-layout {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 24px;
+    width: 100%;
+}
+
+.academic-layout > .card {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    height: auto;
+    min-height: 0;
+    padding: 28px 32px;
+}
+
+/* Card headings */
+.academic-layout .card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 16px;
+}
+
+/* Card text */
+.academic-layout .card p {
+    line-height: 1.8;
+    font-size: 1rem;
+}
+
+/* Activities list */
+.academic-layout .card ul {
+    padding-left: 20px;
+    line-height: 1.8;
+}
+
+/* Mobile layout */
+@media (max-width: 640px) {
+    .academic-layout > .card {
+        padding: 20px;
+    }
+}
