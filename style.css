@@ -366,17 +366,17 @@ nav a:hover{background:var(--stone);}
   overflow:hidden;
 }
 
-/* Caption - TOP */
+/* Caption */
 .gallery-caption{
   background:var(--pine-dark);
   color:#fff;
-  padding:10px 12px;
+  padding:10px;
   text-align:center;
   font-size:0.9rem;
   font-weight:600;
 }
 
-/* Photos - HORIZONTAL */
+/* Photos horizontal */
 .gallery-photos{
   display:flex;
   flex-wrap:nowrap;
@@ -384,7 +384,7 @@ nav a:hover{background:var(--stone);}
   width:100%;
 }
 
-/* All photos same height and equal width */
+/* All photos equal size */
 .gallery-photos img{
   flex:1 1 0;
   min-width:0;
@@ -403,6 +403,7 @@ nav a:hover{background:var(--stone);}
   .gallery-photos img{
     height:180px;
   }
+
 
 }
 
